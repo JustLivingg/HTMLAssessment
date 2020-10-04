@@ -34,41 +34,41 @@
     <table>
       <thead>
     <tr>
-      <th scope="col">Year</th>
-      <th scope="col">Attendance</th>
-      <th scope="col">Number of Artists</th>
-      <th scope="col">Soldout?</th>
+      <th rowspan="2">Year</th>
+      <th colspan="2">Attendance</th>
+      <th colspan="1">Number of Artists</th>
+      <th colspan="1">Soldout?</th>
     </tr>
     </thead>
     <th colspan="7">
     <tbody>
     <tr>
-      <td rowspan="1">2019</td>
-      <td>465,000</td>
+      <td >2019</td>
+      <td colspan="2">465,000</td>
       <td>250</td>
       <td>Yes</td>
     </tr>
     <tr>
-      <td rowspan="1">2018</td>
-      <td>430,000</td>
+      <td >2018</td>
+      <td colspan="2">430,000</td>
       <td>240</td>
       <td>Yes</td>
     </tr>
     <tr>
-      <td rowspan="1">2017</td>
-      <td>410,000</td>
+      <td >2017</td>
+      <td colspan="2">410,000</td>
       <td>230</td>
       <td>Yes</td>
     </tr>
     <tr>
-      <td rowspan="1">2016</td>
-      <td>400,000</td>
+      <td >2016</td>
+      <td colspan="2">400,000</td>
       <td>200</td>
       <td>Yes</td>
     </tr>
     <tr>
-      <td rowspan="1">2015</td>
-      <td>390,000</td>
+      <td >2015</td>
+      <td colspan="2">390,000</td>
       <td>180</td>
       <td>Yes</td>
     </tr>
@@ -78,7 +78,7 @@
   <tr>
     <th>Total:</th>
     <td>2,095,000</td>
-    <td>1,100</td>
+    <td colspan="2">1,100</td>
   </tr>
 </tfoot>
     </table>
@@ -90,7 +90,7 @@
     <h3>3. List</h3>
     <br>
 
-    
+    <img src="tiesto.jpeg" alt="picture of tiesto">
     <a href="https://www.tiesto.com/"><strong>Tiësto</strong></a>
     <ul>
       <li>Age: 51</li>
@@ -114,6 +114,40 @@
             <li>In the Name of Love</li>
           </ul>
     </ul>
+    <br>
+    <h3>4. Form</h3>
+    <br>
+    <form>
+      <label for="firstname">First Name:</label>
+      <input type="text" name="firstname" id="firstname">
+      <label for="lastname">Last Name:</label>
+      <input type="text" name="lastname" id="lastname">
+      <br><br>
+      <label for="music options">Whats your favorite genre of EDM Music?</label>
+      <select id="music options">
+     <option value="House">House</option>
+     <option value="DnB">DnB</option>
+     <option value="Progressive House">Progressive House</option>
+     <option value="Trance">Trance</option>
+     <option value="Trap">Trap</option>
+ </select>
+ <br>
+    <strong>I have: </strong>
+    <input type="radio" name="options" value="Attended"> Attended
+    <input type="radio" name="options" value="Never Been"> Never Been
+    <input type="radio" name="options" value="Want to go"> Want To Go
+    <input type="radio" name="options" value="Dont like Music festivals"> Dont like EDM music
+<br>
+    <strong>The music festivals I have attended: </strong>
+    <input type="checkbox" name="festivals" value="Beyond"> Beyond Wonderland
+    <input type="checkbox" name="festivals" value="Escape"> Escape Psycho Circus
+    <input type="checkbox" name="festivals" value="Countdown"> Countdown
+    <input type="checkbox" name="festivals" value="Coachella"> Coachella
+
+ <br><br>
+ <input type="submit" value = "Submit Data"/>
+    </form>
+
 
   </body>
 </html>
