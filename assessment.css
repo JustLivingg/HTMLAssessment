@@ -1,0 +1,49 @@
+.subjectHeader h1, h2, h3, h4, h5 {
+  color: blue;
+  font-family: sans-serif;
+}
+
+#scoreBoard {
+  font-size: 20px;
+  font-weight: bold;
+  color: green;
+  border: 2px solid black;
+  text-align: center;
+}
+
+#teamRoster {
+  list-style-type: square;
+}
+
+.hyperLink:hover {
+  text-decoration: none;
+  background-color: orange;
+}
+
+blockquote {
+color: purple;
+background: green;
+}
+
+p {
+  font-size: 22px;
+}
+
+img {
+
+  height: 200px;
+  width: 200px;
+  position: relative;
+  bottom: 40;
+
+}
+
+#teamRoster{
+  position: relative;
+}
+
+#checkbox-grid {
+  list-style-type: none;
+  display: inline;
+  list-style: none;
+}
