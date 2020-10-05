@@ -11,7 +11,7 @@
   text-align: center;
 }
 
-#teamRoster {
+ul {
   list-style-type: square;
 }
 
@@ -30,16 +30,18 @@ p {
 }
 
 img {
-
-  height: 200px;
-  width: 200px;
-  position: relative;
-  bottom: 40;
-
+visibility: hidden;
 }
 
-#teamRoster{
-  position: relative;
+#teamRoster>li:first-child>ul{
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg");
+  background-repeat:no-repeat;
+  background-size:20%;
+}
+#teamRoster>li:last-child>ul{
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg");
+  background-repeat:no-repeat;
+  background-size: 20%;
 }
 
 #checkbox-grid {
